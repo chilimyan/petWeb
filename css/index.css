@@ -1,0 +1,67 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    background-color: grey;
+}
+
+ul,li{
+    list-style: none;
+    padding: 0px;
+}
+
+.navbar-default {
+    background-color: white;
+    height: 120px;
+    border:none;
+    margin-bottom: 0px;
+}
+
+button.navbar-toggle {
+    background-color: white;
+}
+
+button.navbar-toggle > span.icon-bar {
+    background-color: grey;
+}
+
+.navbar-default.pet-navbar .navbar-nav > li > a {
+    color: #5c5c33;
+    font-size: 18px;
+    outline: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #d11e00;
+    background-color: transparent;
+    border-bottom-color: #d11e00;
+    border-bottom: solid 1px;
+}
+
+.navbar-default.pet-navbar .navbar-nav > .active > a, .navbar-default.pet-navbar .navbar-nav > .active > a:hover, .navbar-default.pet-navbar .navbar-nav > .active > a:focus{
+    color: #d11e00;
+    background-color: transparent;
+    border-bottom-color: #d11e00;
+    border-bottom: solid 1px;
+}
+
+
+.navbar-nav > li > a {padding-bottom: 5px;padding-left: 0px;padding-right: 0px;margin: 0px 30px;}
+
+@media only screen and (min-width: 100px) and (max-width: 960px) {
+    .navbar-nav > li > a {padding-bottom: 5px;padding-left: 0px;padding-right: 0px;margin: 0px 10px;}
+}
+
+@media only screen and (min-width: 760px) and (max-width: 2000px) {
+    .navbar-right{float: none !important;margin: 0px 150px 0px 240px;text-align: center;}
+    .navbar-nav > li{text-align: center;float: none;display: inline-block;}
+}
+@media only screen and (min-width: 640px) and (max-width: 1000px) {
+    .navbar-right {
+        margin-right: 160px;
+    }
+}
+
+
